@@ -26,6 +26,7 @@ function App() {
             <Profile login={login} />
           </Route>
           <Route path="/post/:id" component={Post} />
+          <Route path="/post" component={Post} />
           <Route component={NotFound} />
         </Switch>
       </div>
